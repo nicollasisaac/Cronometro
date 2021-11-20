@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    font-family: 'Roboto', serif;
+    margin: 0;
+}
+.container{
+    width: 100%;
+    min-height: 500vh;
+}
+.cronometro{
+    width: 50%;
+    margin: auto;
+    height: 300px;
+    padding: 50px;
+    margin-top: 10rem;
+    background: rgba(20, 20, 20, 0.863);
+    border-radius: 1rem;
+}
+.cronometro h1{
+    font-size: 6rem;
+    text-align: center;
+    color: white;
+    padding-top: 2rem;
+}
+.btn{
+    background: white;
+    padding: 15px;
+    width: 20%;
+    font-size: 1rem;
+    border-radius: .7rem;
+    margin-left: 10%;
+    margin-top: 2rem;
+}
+.btn:hover{
+    background: rgba(223, 16, 16, 0.788);
+}
